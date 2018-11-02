@@ -1,0 +1,60 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link rel="styleSheet"  href="calc.css">
+</head>
+
+<body>
+    <h1>My calculator</h1>
+
+    <div>
+    <input class="size" type="number" name="" id="first"> + <input class="size" type="number" name="" id="Second">=<button id="answer"></button>
+    <button id="add" onclick="add()" class="kirabo"> add </button><br><br>
+    
+    <input class="size" type="number" name="" id="third"> - <input class="size" type="number" name="" id="forth">=<Button id="result"></Button>
+    <Button id="Subtract" onclick="Subtract()"  class="kirabz"> Subtract </Button><br><br>
+    
+    <input class="size" type="number" name="" id="fifth"> / <input class="size" type="number" name="" id="sixth">=<button id="output"></button>
+    <button id="Divide" onclick="Divide()"  class="kira"> Divide </button><br><br>
+    
+    <input class="size" type="number" name="" id="seventh"> * <input class="size" type="number" name="" id="eighth">=<button id="impact"></button>
+    <button id="Multiply" onclick="Multiply()"  class="kirabs"> Multiply </button>
+</div>
+    <script>
+function add(){
+    var firstNum = parseInt(document.querySelector('#first').value);
+    var SecondNum=parseInt(document.querySelector('#second').value);
+    var add= document.querySelector('#add');
+    var answer= document.querySelector('#answer').innerHTML=firstNum+SecondNum;
+    console.log(firstNum + SecondNum);
+}
+
+function Subtract(){
+    var thirdNum = parseInt(document.querySelector('#third').value);
+    var forthNum=parseInt(document.querySelector('#forth').value);
+    var Subtract= document.querySelector('#Subtract');
+    var answer= document.querySelector('#result').innerHTML=thirdNum-forthNum;
+    console.log(thirdNum - forthNum);
+}
+
+function Divide(){
+    var fifthNum = parseInt(document.querySelector('#fifth').value);
+    var sixthNum=parseInt(document.querySelector('#sixth').value);
+    var Subtract= document.querySelector('#Divide');
+    var answer= document.querySelector('#output').innerHTML=fifthNum/sixthNum;
+    console.log(fifthNum / sixthNum);
+}
+
+function Multiply(){
+    var seventhNum = parseInt(document.querySelector('#seventh').value);
+    var eighthNum=parseInt(document.querySelector('#eighth').value);
+    var Multiply= document.querySelector('#Multiply');
+    var answer= document.querySelector('#impact').innerHTML=seventhNum * eighthNum;
+    console.log(seventhNum * eighthNum);
+}
+    </script>
+</body>
+
+</html>

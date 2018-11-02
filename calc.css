@@ -1,0 +1,40 @@
+.size{
+    width: 50px;
+    height: 50px;
+    background: rgb(210, 223, 223);
+    font-size: 20px;
+}
+button{
+    padding: 10px;
+}
+.kirabo{
+    color: #fff;
+    background: rgb(235, 3, 204);
+    font-size: 20px;
+}
+.kirabz{
+    background: green;
+    color: #fff;
+    font-size: 20px;
+}
+.kira{
+    background:blue;
+    color: #fff;
+    font-size: 20px;
+}
+.kirabs{
+    background:purple;
+    color: #fff;
+    font-size: 20px;
+}
+div{
+    margin-left: 200px;
+}
+h1{
+    color:#000;
+    text-align:center;
+    font-size: 80px;
+}
+body{
+    background: aqua;
+}
